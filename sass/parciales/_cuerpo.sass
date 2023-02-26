@@ -1,0 +1,105 @@
+/*CUERPO*/
+
+main
+{overflow: hidden;}
+
+.cuerpo{
+    background-color: $Cblanco;
+        &__div
+        {
+    margin: 0rem 4rem 1rem 4rem;
+            &--especial
+    {
+    margin:0px 50px 0px 50px;  
+    }
+            &--iframe
+    {
+    text-align: center;
+    font-family: $Lroboto;
+    line-height: 4rem;
+    }
+            &--flex
+    {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-start: initial;
+    gap: 2rem;
+    padding: 2rem 0rem 0rem 0rem;
+    }
+    }
+    
+    &__h1
+    {
+    font-size: 3rem;
+    font-family: $Lbebas;
+    text-align: left;
+    line-height: 2;
+    }    
+    &__h2
+    {
+    font-size: 2.5rem;
+    font-family: $Lbebas;
+    text-align: left;
+    line-height: 2;
+    &--importante
+    {
+    color: $Crojo;
+    font-size: 2.5rem;
+    font-family:$Lbebas;
+    text-align: center;
+    line-height: 2;
+    text-shadow: #666 0px 0px 15px;
+    }
+    }
+    &__h3
+    {
+    font-size: 2rem;
+    font-family: $Lbebas;
+    text-align: left;
+    line-height: 2
+    }
+    &__p 
+    {
+    font-size: 1.5rem;
+    font-family: $Lroboto;
+    text-align: left;
+    }
+    &__img    
+    {
+    width: 500px;
+    height: 350px;
+    align-self: center;
+    }
+    &__ol
+    {
+    font-size: 1.5rem;
+    font-family: $Lroboto;
+    text-align: left;
+    line-height: 1.5;
+    margin: 1rem;
+    padding: 1rem;
+    box-sizing: border-box;
+    }
+    }
+    
+    
+
+.section
+    {
+    &__l
+        {
+        display: flex;
+        flex-direction: row;
+        margin-right: 50px;
+        align-items: center;
+        }
+    &__r
+        {
+        display: flex;
+        flex-direction: row-reverse;
+        margin-left: 50px;
+        align-items: center;
+        }
+    }
+
+    
