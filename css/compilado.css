@@ -1,0 +1,283 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/*HEADER*/
+.header {
+  background-color: black;
+  width: 100%; }
+  .header__section {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-column-start: initial;
+    gap: 2rem;
+    margin-top: 2rem;
+    margin: 3rem; }
+  .header__h2--blanco {
+    color: white;
+    background-color: black;
+    font-size: 3rem;
+    font-family: "Bebas Neue", cursive;
+    text-align: left;
+    line-height: 2;
+    text-align: center; }
+  .header__h2--negro {
+    color: black;
+    background-color: white;
+    font-size: 3rem;
+    font-family: "Bebas Neue", cursive;
+    text-align: left;
+    line-height: 2;
+    text-align: center; }
+  .header__p {
+    color: white;
+    font-size: 1.5rem;
+    font-family: "Roboto", sans-serif;
+    text-align: left; }
+  .header__img {
+    width: 100%; }
+  .header__nav {
+    text-align: center;
+    list-style: none;
+    padding: 0.5rem 1rem;
+    width: 100%;
+    background-image: url(../img/blue-printed-circuit-board-vector.jpg); }
+  .header__item {
+    display: inline;
+    margin: 1rem; }
+  .header__a {
+    color: white;
+    text-decoration: none;
+    font-family: "Bebas Neue", cursive;
+    font-size: 2rem; }
+    .header__a--activo {
+      color: white;
+      text-decoration: none;
+      font-family: "Bebas Neue", cursive;
+      font-size: 3rem; }
+
+/*CUERPO*/
+body {
+  background-color: black; }
+
+main {
+  overflow: hidden; }
+
+.cuerpo {
+  background-color: white; }
+  .cuerpo__div {
+    margin: 0rem 4rem 1rem 4rem; }
+    .cuerpo__div--especial {
+      margin: 0px 50px 0px 50px; }
+    .cuerpo__div--iframe {
+      text-align: center;
+      font-family: "Roboto", sans-serif;
+      line-height: 4rem; }
+    .cuerpo__div--flex {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-column-start: initial;
+      gap: 2rem;
+      padding: 2rem 0rem 0rem 0rem; }
+  .cuerpo__h1 {
+    font-size: 3rem;
+    font-family: "Bebas Neue", cursive;
+    text-align: left;
+    line-height: 2; }
+  .cuerpo__h2 {
+    font-size: 2.5rem;
+    font-family: "Bebas Neue", cursive;
+    text-align: left;
+    line-height: 2; }
+    .cuerpo__h2--importante {
+      color: red;
+      font-size: 2.5rem;
+      font-family: "Bebas Neue", cursive;
+      text-align: center;
+      line-height: 2;
+      text-shadow: #666 0px 0px 15px; }
+  .cuerpo__h3 {
+    font-size: 2rem;
+    font-family: "Bebas Neue", cursive;
+    text-align: left;
+    line-height: 2; }
+  .cuerpo__p {
+    font-size: 1.5rem;
+    font-family: "Roboto", sans-serif;
+    text-align: left; }
+  .cuerpo__img {
+    width: 500px;
+    height: 350px;
+    align-self: center; }
+  .cuerpo__ol {
+    font-size: 1.5rem;
+    font-family: "Roboto", sans-serif;
+    text-align: left;
+    line-height: 1.5;
+    margin: 1rem;
+    padding: 1rem;
+    box-sizing: border-box; }
+
+.section__l {
+  display: flex;
+  flex-direction: row;
+  margin-right: 50px;
+  align-items: center; }
+
+.section__r {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-left: 50px;
+  align-items: center; }
+
+/*CONTACTO*/
+.contacto__main {
+  background-color: #0B877D;
+  display: flex;
+  justify-content: center; }
+
+.contacto__div {
+  font-family: "Bebas Neue", cursive;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column; }
+
+.contacto__h1 {
+  font-family: "Bebas Neue", cursive;
+  color: #031727;
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+  padding: 3rem; }
+
+.contacto__form {
+  max-width: 400px;
+  width: 100%;
+  padding: 30px;
+  margin: auto;
+  display: block;
+  margin-block-end: 20px; }
+
+.contacto__select {
+  margin: 0px 0px 20px 0px; }
+
+.contacto__label {
+  text-align: center;
+  padding: 5px; }
+
+.contacto__imput {
+  padding: 3px; }
+
+.contacto__titulo {
+  font-family: "Bebas Neue", cursive;
+  color: black;
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 20px; }
+
+.contacto__txarea {
+  margin-top: 10px; }
+
+.contacto__boton {
+  margin: auto;
+  display: block;
+  padding: 10px; }
+
+.footer {
+  background-color: #18C29C;
+  width: 100%; }
+  .footer__img {
+    max-width: 70%; }
+  .footer__h2 {
+    color: white;
+    font-size: 2rem;
+    font-family: "Rock Salt", cursiva;
+    text-align: center;
+    line-height: 2; }
+  .footer__p {
+    font-size: rem;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    line-height: 1.5;
+    font-weight: bolder; }
+  .footer__a {
+    color: black;
+    font-size: 2rem; }
+
+/*MEDIA QUERIES (ESTILOS MOVILES)*/
+@media screen and (max-width: 1024px) {
+  .header {
+    width: 100%;
+    background-color: black; }
+  .header__img {
+    width: 100%; }
+  iframe {
+    width: auto;
+    height: auto; } }
+
+@media screen and (max-width: 768px) {
+  .header {
+    width: 100%;
+    background-color: black; }
+  .header__img {
+    width: 100%; }
+  .header__item {
+    display: flex;
+    flex-direction: column;
+    padding: 5px; }
+  .cuerpo__div--flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .section__l {
+    display: flex;
+    flex-direction: column;
+    margin-right: 0px;
+    align-items: center; }
+  .section__r {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+    align-items: center; }
+  iframe {
+    width: auto;
+    height: auto; }
+  .foother__img {
+    max-width: 85%; } }
+
+@media screen and (max-width: 425px) {
+  .header {
+    width: 100%;
+    background-color: black; }
+  .header__img {
+    max-width: 100%; }
+  .header__item {
+    display: flex;
+    flex-direction: column;
+    padding: 5px; }
+  img {
+    width: 100%; }
+  .cuerpo__div--flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .section__l {
+    display: flex;
+    flex-direction: column;
+    margin-right: 0px;
+    align-items: center; }
+  .section__r {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+    align-items: center; }
+  .cuerpo__img {
+    width: 85%; }
+  iframe {
+    width: auto;
+    height: auto; }
+  .footer__img {
+    width: 70%; } }
