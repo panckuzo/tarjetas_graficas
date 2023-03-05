@@ -85,12 +85,14 @@ main {
     font-size: 3rem;
     font-family: "Bebas Neue", cursive;
     text-align: left;
-    line-height: 2; }
+    line-height: 2;
+    color: white; }
   .cuerpo__h2 {
     font-size: 2.5rem;
     font-family: "Bebas Neue", cursive;
     text-align: left;
-    line-height: 2; }
+    line-height: 2;
+    color: white; }
     .cuerpo__h2--importante {
       color: red;
       font-size: 2.5rem;
@@ -102,15 +104,15 @@ main {
     font-size: 2rem;
     font-family: "Bebas Neue", cursive;
     text-align: left;
-    line-height: 2; }
+    line-height: 2;
+    color: white; }
   .cuerpo__p {
     font-size: 1.5rem;
     font-family: "Roboto", sans-serif;
-    text-align: left; }
+    text-align: left;
+    color: white; }
   .cuerpo__img {
-    width: 500px;
-    height: 350px;
-    align-self: center; }
+    width: 100%; }
   .cuerpo__ol {
     font-size: 1.5rem;
     font-family: "Roboto", sans-serif;
@@ -118,7 +120,8 @@ main {
     line-height: 1.5;
     margin: 1rem;
     padding: 1rem;
-    box-sizing: border-box; }
+    box-sizing: border-box;
+    color: white; }
 
 .section__l {
   display: flex;
@@ -187,25 +190,34 @@ main {
   padding: 10px; }
 
 .footer {
-  background-color: #18C29C;
-  width: 100%; }
+  background-image: url(../img/blue-printed-circuit-board-vector.jpg);
+  width: 100%;
+  overflow: hidden; }
   .footer__img {
-    max-width: 70%; }
+    width: 5rem;
+    height: 5rem;
+    padding: 0.2rem 0.3rem 0.2rem 0.3rem;
+    text-align: center; }
+  .footer__div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+    text-align: center; }
   .footer__h2 {
     color: white;
-    font-size: 2rem;
-    font-family: "Rock Salt", cursiva;
-    text-align: center;
-    line-height: 2; }
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    text-align: center; }
   .footer__p {
-    font-size: rem;
+    color: white;
     font-family: "Roboto", sans-serif;
     text-align: center;
-    line-height: 1.5;
     font-weight: bolder; }
   .footer__a {
-    color: black;
-    font-size: 2rem; }
+    color: white; }
 
 /*MEDIA QUERIES (ESTILOS MOVILES)*/
 @media screen and (max-width: 1024px) {
@@ -218,13 +230,19 @@ main {
     width: auto;
     height: auto; } }
 
+@media screen and (max-width: 1023px) {
+  .header__section {
+    display: flex;
+    flex-direction: column;
+    padding: 5px; } }
+
 @media screen and (max-width: 768px) {
   .header {
     width: 100%;
     background-color: black; }
   .header__img {
     width: 100%; }
-  .header__item {
+  .header__section {
     display: flex;
     flex-direction: column;
     padding: 5px; }
@@ -258,8 +276,10 @@ main {
     display: flex;
     flex-direction: column;
     padding: 5px; }
-  img {
-    width: 100%; }
+  .header__section {
+    display: flex;
+    flex-direction: column;
+    padding: 5px; }
   .cuerpo__div--flex {
     display: flex;
     flex-direction: column;
@@ -275,9 +295,7 @@ main {
     margin-left: 0px;
     align-items: center; }
   .cuerpo__img {
-    width: 85%; }
+    width: 100%; }
   iframe {
     width: auto;
-    height: auto; }
-  .footer__img {
-    width: 70%; } }
+    height: auto; } }

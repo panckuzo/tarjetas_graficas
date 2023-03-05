@@ -1,32 +1,41 @@
 .footer
     {
-    background-color: $Cverdeagua;
+    background-image: url(../img/blue-printed-circuit-board-vector.jpg);
     width: 100%;
+    overflow: hidden;
 
     &__img {
-        max-width: 70%;
+        width: 5rem;
+        height: 5rem;
+        padding: 0.2rem 0.3rem 0.2rem 0.3rem;
+        text-align: center;
     }
 
+    &__div {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: stretch;
+        text-align:center;     
+    }
 
-    &__h2  
-    {
-    color: $Cblanco;
-    font-size: 2rem;
-    font-family: $Lfooter;
-    text-align: center;
-    line-height: 2;
+    &__h2 {
+        color: $Cblanco;
+        font-weight: bold;
+        font-family: $Lroboto;
+        text-align: center;
     }
-    &__p
-    {
-    font-size: rem;
-    font-family: $Lroboto;
-    text-align: center;
-    line-height: 1.5;
-    font-weight: bolder;
+
+    &__p {   
+        color: $Cblanco;      
+        font-family: $Lroboto;
+        text-align: center;
+        font-weight: bolder;
     }
-    &__a
-    {
-    color: $Cnegro;
-    font-size: 2rem;
+
+    &__a {
+        color: $Cblanco;   
     }
     }
